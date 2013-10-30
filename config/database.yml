@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: sanc_development
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: sanc_test
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: sanc_production
+  host: localhost
